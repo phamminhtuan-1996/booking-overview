@@ -1,0 +1,2010 @@
+@font-face {
+  font-family: 'ezGolf';
+  src:  url('fonts/ezGolf.eot?fqq6m');
+  src:  url('fonts/ezGolf.eot?fqq6m#iefix') format('embedded-opentype'),
+    url('fonts/ezGolf.ttf?fqq6m') format('truetype'),
+    url('fonts/ezGolf.woff?fqq6m') format('woff'),
+    url('fonts/ezGolf.svg?fqq6m#ezGolf') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="ezGolf-icon-"], [class*=" ezGolf-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ezGolf' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ezGolf-icon-golf-club:before {
+  content: "\eac9";
+  color: #5d5f65;
+}
+.ezGolf-icon-golf-practice:before {
+  content: "\eaca";
+  color: #5d5f65;
+}
+.ezGolf-icon-history:before {
+  content: "\eacb";
+  color: #5d5f65;
+}
+.ezGolf-icon-hotel:before {
+  content: "\eacc";
+  color: #5d5f65;
+}
+.ezGolf-icon-invoice:before {
+  content: "\eacd";
+  color: #5d5f65;
+}
+.ezGolf-icon-qrcode:before {
+  content: "\eace";
+  color: #5d5f65;
+}
+.ezGolf-icon-ticket:before {
+  content: "\eacf";
+  color: #5d5f65;
+}
+.ezGolf-icon-wallet:before {
+  content: "\ead0";
+  color: #5d5f65;
+}
+.ezGolf-icon-pants:before {
+  content: "\ea2e";
+  color: #5d5f65;
+}
+.ezGolf-icon-shirt:before {
+  content: "\ea50";
+  color: #5d5f65;
+}
+.ezGolf-icon-shoes:before {
+  content: "\ea51";
+  color: #5d5f65;
+}
+.ezGolf-icon-activity:before {
+  content: "\e900";
+  color: #5d5f65;
+}
+.ezGolf-icon-airplay:before {
+  content: "\e901";
+  color: #5d5f65;
+}
+.ezGolf-icon-alert-circle:before {
+  content: "\e902";
+  color: #5d5f65;
+}
+.ezGolf-icon-alert-octagon:before {
+  content: "\e903";
+  color: #5d5f65;
+}
+.ezGolf-icon-alert-triangle:before {
+  content: "\e904";
+  color: #5d5f65;
+}
+.ezGolf-icon-align-center:before {
+  content: "\e905";
+  color: #5d5f65;
+}
+.ezGolf-icon-align-justify:before {
+  content: "\e906";
+  color: #5d5f65;
+}
+.ezGolf-icon-align-left:before {
+  content: "\e907";
+  color: #5d5f65;
+}
+.ezGolf-icon-align-right:before {
+  content: "\e908";
+  color: #5d5f65;
+}
+.ezGolf-icon-anchor:before {
+  content: "\e909";
+  color: #5d5f65;
+}
+.ezGolf-icon-aperture:before {
+  content: "\e90a";
+  color: #5d5f65;
+}
+.ezGolf-icon-apps:before {
+  content: "\e90b";
+  color: #5d5f65;
+}
+.ezGolf-icon-archive:before {
+  content: "\e90c";
+  color: #5d5f65;
+}
+.ezGolf-icon-arrow-down:before {
+  content: "\e90d";
+  color: #5d5f65;
+}
+.ezGolf-icon-arrow-down-circle:before {
+  content: "\e90e";
+  color: #5d5f65;
+}
+.ezGolf-icon-arrow-down-left:before {
+  content: "\e90f";
+  color: #5d5f65;
+}
+.ezGolf-icon-arrow-down-right:before {
+  content: "\e910";
+  color: #5d5f65;
+}
+.ezGolf-icon-arrow-left:before {
+  content: "\e911";
+  color: #5d5f65;
+}
+.ezGolf-icon-arrow-left-circle:before {
+  content: "\e912";
+  color: #5d5f65;
+}
+.ezGolf-icon-arrow-right:before {
+  content: "\e913";
+  color: #5d5f65;
+}
+.ezGolf-icon-arrow-right-circle:before {
+  content: "\e914";
+  color: #5d5f65;
+}
+.ezGolf-icon-arrow-up:before {
+  content: "\e915";
+  color: #5d5f65;
+}
+.ezGolf-icon-arrow-up-circle:before {
+  content: "\e916";
+  color: #5d5f65;
+}
+.ezGolf-icon-arrow-up-left:before {
+  content: "\e917";
+  color: #5d5f65;
+}
+.ezGolf-icon-arrow-up-right:before {
+  content: "\e918";
+  color: #5d5f65;
+}
+.ezGolf-icon-at-sign:before {
+  content: "\e919";
+  color: #5d5f65;
+}
+.ezGolf-icon-award:before {
+  content: "\e91a";
+  color: #5d5f65;
+}
+.ezGolf-icon-bar-chart:before {
+  content: "\e91b";
+  color: #5d5f65;
+}
+.ezGolf-icon-bar-chart-2:before {
+  content: "\e91c";
+  color: #5d5f65;
+}
+.ezGolf-icon-battery:before {
+  content: "\e91d";
+  color: #5d5f65;
+}
+.ezGolf-icon-battery-charging:before {
+  content: "\e91e";
+  color: #5d5f65;
+}
+.ezGolf-icon-bell:before {
+  content: "\e91f";
+  color: #5d5f65;
+}
+.ezGolf-icon-bell-off:before {
+  content: "\e920";
+  color: #5d5f65;
+}
+.ezGolf-icon-bluetooth:before {
+  content: "\e921";
+  color: #5d5f65;
+}
+.ezGolf-icon-bold:before {
+  content: "\e922";
+  color: #5d5f65;
+}
+.ezGolf-icon-book:before {
+  content: "\e923";
+  color: #5d5f65;
+}
+.ezGolf-icon-bookmark:before {
+  content: "\e924";
+  color: #5d5f65;
+}
+.ezGolf-icon-book-open:before {
+  content: "\e925";
+  color: #5d5f65;
+}
+.ezGolf-icon-box:before {
+  content: "\e926";
+  color: #5d5f65;
+}
+.ezGolf-icon-briefcase:before {
+  content: "\e927";
+  color: #5d5f65;
+}
+.ezGolf-icon-cake:before {
+  content: "\e928";
+  color: #5d5f65;
+}
+.ezGolf-icon-calculate:before {
+  content: "\e929";
+  color: #5d5f65;
+}
+.ezGolf-icon-calendar:before {
+  content: "\e92a";
+  color: #5d5f65;
+}
+.ezGolf-icon-camera:before {
+  content: "\e92b";
+  color: #5d5f65;
+}
+.ezGolf-icon-camera-off:before {
+  content: "\e92c";
+  color: #5d5f65;
+}
+.ezGolf-icon-cast:before {
+  content: "\e92d";
+  color: #5d5f65;
+}
+.ezGolf-icon-chart-outlined:before {
+  content: "\e92e";
+  color: #5d5f65;
+}
+.ezGolf-icon-check:before {
+  content: "\e92f";
+  color: #5d5f65;
+}
+.ezGolf-icon-check-circle:before {
+  content: "\e930";
+  color: #5d5f65;
+}
+.ezGolf-icon-check-square:before {
+  content: "\e931";
+  color: #5d5f65;
+}
+.ezGolf-icon-chevron-down:before {
+  content: "\e932";
+  color: #5d5f65;
+}
+.ezGolf-icon-chevron-left:before {
+  content: "\e933";
+  color: #5d5f65;
+}
+.ezGolf-icon-chevron-right:before {
+  content: "\e934";
+  color: #5d5f65;
+}
+.ezGolf-icon-chevrons-down:before {
+  content: "\e935";
+  color: #5d5f65;
+}
+.ezGolf-icon-chevrons-left:before {
+  content: "\e936";
+  color: #5d5f65;
+}
+.ezGolf-icon-chevrons-right:before {
+  content: "\e937";
+  color: #5d5f65;
+}
+.ezGolf-icon-chevrons-up:before {
+  content: "\e938";
+  color: #5d5f65;
+}
+.ezGolf-icon-chevron-up:before {
+  content: "\e939";
+  color: #5d5f65;
+}
+.ezGolf-icon-circle:before {
+  content: "\e93a";
+  color: #5d5f65;
+}
+.ezGolf-icon-clock:before {
+  content: "\e93b";
+  color: #5d5f65;
+}
+.ezGolf-icon-cloud:before {
+  content: "\e93c";
+  color: #5d5f65;
+}
+.ezGolf-icon-cloud-drizzle:before {
+  content: "\e93d";
+  color: #5d5f65;
+}
+.ezGolf-icon-cloud-lightning:before {
+  content: "\e93e";
+  color: #5d5f65;
+}
+.ezGolf-icon-cloud-off:before {
+  content: "\e93f";
+  color: #5d5f65;
+}
+.ezGolf-icon-cloud-rain:before {
+  content: "\e940";
+  color: #5d5f65;
+}
+.ezGolf-icon-cloud-snow:before {
+  content: "\e941";
+  color: #5d5f65;
+}
+.ezGolf-icon-code:before {
+  content: "\e942";
+  color: #5d5f65;
+}
+.ezGolf-icon-Coffee:before {
+  content: "\e943";
+  color: #5d5f65;
+}
+.ezGolf-icon-contact-phone:before {
+  content: "\e944";
+  color: #5d5f65;
+}
+.ezGolf-icon-co-present:before {
+  content: "\e945";
+  color: #5d5f65;
+}
+.ezGolf-icon-copy:before {
+  content: "\e946";
+  color: #5d5f65;
+}
+.ezGolf-icon-corner-down-left:before {
+  content: "\e947";
+  color: #5d5f65;
+}
+.ezGolf-icon-corner-down-right:before {
+  content: "\e948";
+  color: #5d5f65;
+}
+.ezGolf-icon-corner-left-down:before {
+  content: "\e949";
+  color: #5d5f65;
+}
+.ezGolf-icon-corner-left-up:before {
+  content: "\e94a";
+  color: #5d5f65;
+}
+.ezGolf-icon-corner-right-down:before {
+  content: "\e94b";
+  color: #5d5f65;
+}
+.ezGolf-icon-corner-right-up:before {
+  content: "\e94c";
+  color: #5d5f65;
+}
+.ezGolf-icon-corner-up-left:before {
+  content: "\e94d";
+  color: #5d5f65;
+}
+.ezGolf-icon-corner-up-right:before {
+  content: "\e94e";
+  color: #5d5f65;
+}
+.ezGolf-icon-cpu:before {
+  content: "\e94f";
+  color: #5d5f65;
+}
+.ezGolf-icon-credit-card:before {
+  content: "\e950";
+  color: #5d5f65;
+}
+.ezGolf-icon-crop:before {
+  content: "\e951";
+  color: #5d5f65;
+}
+.ezGolf-icon-crosshair:before {
+  content: "\e952";
+  color: #5d5f65;
+}
+.ezGolf-icon-database:before {
+  content: "\e953";
+  color: #5d5f65;
+}
+.ezGolf-icon-delete:before {
+  content: "\e954";
+  color: #5d5f65;
+}
+.ezGolf-icon-diamond:before {
+  content: "\e955";
+  color: #5d5f65;
+}
+.ezGolf-icon-download:before {
+  content: "\e956";
+  color: #5d5f65;
+}
+.ezGolf-icon-download-cloud:before {
+  content: "\e957";
+  color: #5d5f65;
+}
+.ezGolf-icon-drag-vertical:before {
+  content: "\e958";
+  color: #5d5f65;
+}
+.ezGolf-icon-droplet:before {
+  content: "\e959";
+  color: #5d5f65;
+}
+.ezGolf-icon-edit:before {
+  content: "\e95a";
+  color: #5d5f65;
+}
+.ezGolf-icon-edit-2:before {
+  content: "\e95b";
+  color: #5d5f65;
+}
+.ezGolf-icon-edit-3:before {
+  content: "\e95c";
+  color: #5d5f65;
+}
+.ezGolf-icon-external-link:before {
+  content: "\e95d";
+  color: #5d5f65;
+}
+.ezGolf-icon-eye:before {
+  content: "\e95e";
+  color: #5d5f65;
+}
+.ezGolf-icon-facebook:before {
+  content: "\e95f";
+  color: #5d5f65;
+}
+.ezGolf-icon-facebook-1:before {
+  content: "\e960";
+  color: #3b5998;
+}
+.ezGolf-icon-fast-forward:before {
+  content: "\e961";
+  color: #5d5f65;
+}
+.ezGolf-icon-feather:before {
+  content: "\e962";
+  color: #5d5f65;
+}
+.ezGolf-icon-female:before {
+  content: "\e963";
+  color: #5d5f65;
+}
+.ezGolf-icon-file:before {
+  content: "\e964";
+  color: #5d5f65;
+}
+.ezGolf-icon-file-minus:before {
+  content: "\e965";
+  color: #5d5f65;
+}
+.ezGolf-icon-file-plus:before {
+  content: "\e966";
+  color: #5d5f65;
+}
+.ezGolf-icon-file-text:before {
+  content: "\e967";
+  color: #5d5f65;
+}
+.ezGolf-icon-film:before {
+  content: "\e968";
+  color: #5d5f65;
+}
+.ezGolf-icon-filter:before {
+  content: "\e969";
+  color: #5d5f65;
+}
+.ezGolf-icon-fitness-center:before {
+  content: "\e96a";
+  color: #5d5f65;
+}
+.ezGolf-icon-flag:before {
+  content: "\e96b";
+  color: #5d5f65;
+}
+.ezGolf-icon-flag-for-cambodia .path1:before {
+  content: "\e96c";
+  color: rgb(237, 76, 92);
+}
+.ezGolf-icon-flag-for-cambodia .path2:before {
+  content: "\e96d";
+  margin-left: -1em;
+  color: rgb(42, 95, 158);
+}
+.ezGolf-icon-flag-for-cambodia .path3:before {
+  content: "\e96e";
+  margin-left: -1em;
+  color: rgb(42, 95, 158);
+}
+.ezGolf-icon-flag-for-cambodia .path4:before {
+  content: "\e96f";
+  margin-left: -1em;
+  color: rgb(226, 226, 226);
+}
+.ezGolf-icon-flag-for-cambodia .path5:before {
+  content: "\e970";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-cambodia .path6:before {
+  content: "\e971";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-cambodia .path7:before {
+  content: "\e972";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-cambodia .path8:before {
+  content: "\e973";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-china .path1:before {
+  content: "\e974";
+  color: rgb(237, 76, 92);
+}
+.ezGolf-icon-flag-for-china .path2:before {
+  content: "\e975";
+  margin-left: -1em;
+  color: rgb(255, 230, 46);
+}
+.ezGolf-icon-flag-for-china .path3:before {
+  content: "\e976";
+  margin-left: -1em;
+  color: rgb(255, 230, 46);
+}
+.ezGolf-icon-flag-for-china .path4:before {
+  content: "\e977";
+  margin-left: -1em;
+  color: rgb(255, 230, 46);
+}
+.ezGolf-icon-flag-for-china .path5:before {
+  content: "\e978";
+  margin-left: -1em;
+  color: rgb(255, 230, 46);
+}
+.ezGolf-icon-flag-for-china .path6:before {
+  content: "\e979";
+  margin-left: -1em;
+  color: rgb(255, 230, 46);
+}
+.ezGolf-icon-flag-for-hong-kong-sar-china .path1:before {
+  content: "\e97a";
+  color: rgb(237, 76, 92);
+}
+.ezGolf-icon-flag-for-hong-kong-sar-china .path2:before {
+  content: "\e97b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-hong-kong-sar-china .path3:before {
+  content: "\e97c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-hong-kong-sar-china .path4:before {
+  content: "\e97d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-hong-kong-sar-china .path5:before {
+  content: "\e97e";
+  margin-left: -1em;
+  color: rgb(237, 76, 92);
+}
+.ezGolf-icon-flag-for-hong-kong-sar-china .path6:before {
+  content: "\e97f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-hong-kong-sar-china .path7:before {
+  content: "\e980";
+  margin-left: -1em;
+  color: rgb(237, 76, 92);
+}
+.ezGolf-icon-flag-for-hong-kong-sar-china .path8:before {
+  content: "\e981";
+  margin-left: -1em;
+  color: rgb(237, 76, 92);
+}
+.ezGolf-icon-flag-for-hong-kong-sar-china .path9:before {
+  content: "\e982";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-hong-kong-sar-china .path10:before {
+  content: "\e983";
+  margin-left: -1em;
+  color: rgb(237, 76, 92);
+}
+.ezGolf-icon-flag-for-hong-kong-sar-china .path11:before {
+  content: "\e984";
+  margin-left: -1em;
+  color: rgb(237, 76, 92);
+}
+.ezGolf-icon-flag-for-portugal .path1:before {
+  content: "\e985";
+  color: rgb(105, 150, 53);
+}
+.ezGolf-icon-flag-for-portugal .path2:before {
+  content: "\e986";
+  margin-left: -1em;
+  color: rgb(237, 76, 92);
+}
+.ezGolf-icon-flag-for-portugal .path3:before {
+  content: "\e987";
+  margin-left: -1em;
+  color: rgb(255, 230, 46);
+}
+.ezGolf-icon-flag-for-portugal .path4:before {
+  content: "\e988";
+  margin-left: -1em;
+  color: rgb(255, 230, 46);
+}
+.ezGolf-icon-flag-for-portugal .path5:before {
+  content: "\e989";
+  margin-left: -1em;
+  color: rgb(255, 230, 46);
+}
+.ezGolf-icon-flag-for-portugal .path6:before {
+  content: "\e98a";
+  margin-left: -1em;
+  color: rgb(255, 230, 46);
+}
+.ezGolf-icon-flag-for-portugal .path7:before {
+  content: "\e98b";
+  margin-left: -1em;
+  color: rgb(255, 230, 46);
+}
+.ezGolf-icon-flag-for-portugal .path8:before {
+  content: "\e98c";
+  margin-left: -1em;
+  color: rgb(255, 230, 46);
+}
+.ezGolf-icon-flag-for-portugal .path9:before {
+  content: "\e98d";
+  margin-left: -1em;
+  color: rgb(255, 230, 46);
+}
+.ezGolf-icon-flag-for-portugal .path10:before {
+  content: "\e98e";
+  margin-left: -1em;
+  color: rgb(255, 230, 46);
+}
+.ezGolf-icon-flag-for-portugal .path11:before {
+  content: "\e98f";
+  margin-left: -1em;
+  color: rgb(255, 230, 46);
+}
+.ezGolf-icon-flag-for-portugal .path12:before {
+  content: "\e990";
+  margin-left: -1em;
+  color: rgb(255, 230, 46);
+}
+.ezGolf-icon-flag-for-portugal .path13:before {
+  content: "\e991";
+  margin-left: -1em;
+  color: rgb(255, 230, 46);
+}
+.ezGolf-icon-flag-for-portugal .path14:before {
+  content: "\e992";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-portugal .path15:before {
+  content: "\e993";
+  margin-left: -1em;
+  color: rgb(237, 76, 92);
+}
+.ezGolf-icon-flag-for-portugal .path16:before {
+  content: "\e994";
+  margin-left: -1em;
+  color: rgb(255, 230, 46);
+}
+.ezGolf-icon-flag-for-portugal .path17:before {
+  content: "\e995";
+  margin-left: -1em;
+  color: rgb(62, 67, 71);
+}
+.ezGolf-icon-flag-for-portugal .path18:before {
+  content: "\e996";
+  margin-left: -1em;
+  color: rgb(62, 67, 71);
+}
+.ezGolf-icon-flag-for-portugal .path19:before {
+  content: "\e997";
+  margin-left: -1em;
+  color: rgb(62, 67, 71);
+}
+.ezGolf-icon-flag-for-portugal .path20:before {
+  content: "\e998";
+  margin-left: -1em;
+  color: rgb(255, 230, 46);
+}
+.ezGolf-icon-flag-for-portugal .path21:before {
+  content: "\e999";
+  margin-left: -1em;
+  color: rgb(62, 67, 71);
+}
+.ezGolf-icon-flag-for-portugal .path22:before {
+  content: "\e99a";
+  margin-left: -1em;
+  color: rgb(62, 67, 71);
+}
+.ezGolf-icon-flag-for-portugal .path23:before {
+  content: "\e99b";
+  margin-left: -1em;
+  color: rgb(62, 67, 71);
+}
+.ezGolf-icon-flag-for-portugal .path24:before {
+  content: "\e99c";
+  margin-left: -1em;
+  color: rgb(0, 113, 188);
+}
+.ezGolf-icon-flag-for-portugal .path25:before {
+  content: "\e99d";
+  margin-left: -1em;
+  color: rgb(0, 113, 188);
+}
+.ezGolf-icon-flag-for-portugal .path26:before {
+  content: "\e99e";
+  margin-left: -1em;
+  color: rgb(0, 113, 188);
+}
+.ezGolf-icon-flag-for-portugal .path27:before {
+  content: "\e99f";
+  margin-left: -1em;
+  color: rgb(0, 113, 188);
+}
+.ezGolf-icon-flag-for-portugal .path28:before {
+  content: "\e9a0";
+  margin-left: -1em;
+  color: rgb(0, 113, 188);
+}
+.ezGolf-icon-flag-for-portugal .path29:before {
+  content: "\e9a1";
+  margin-left: -1em;
+  color: rgb(255, 230, 46);
+}
+.ezGolf-icon-flag-for-portugal .path30:before {
+  content: "\e9a2";
+  margin-left: -1em;
+  color: rgb(62, 67, 71);
+}
+.ezGolf-icon-flag-for-portugal .path31:before {
+  content: "\e9a3";
+  margin-left: -1em;
+  color: rgb(62, 67, 71);
+}
+.ezGolf-icon-flag-for-portugal .path32:before {
+  content: "\e9a4";
+  margin-left: -1em;
+  color: rgb(62, 67, 71);
+}
+.ezGolf-icon-flag-for-portugal .path33:before {
+  content: "\e9a5";
+  margin-left: -1em;
+  color: rgb(255, 230, 46);
+}
+.ezGolf-icon-flag-for-portugal .path34:before {
+  content: "\e9a6";
+  margin-left: -1em;
+  color: rgb(62, 67, 71);
+}
+.ezGolf-icon-flag-for-portugal .path35:before {
+  content: "\e9a7";
+  margin-left: -1em;
+  color: rgb(62, 67, 71);
+}
+.ezGolf-icon-flag-for-portugal .path36:before {
+  content: "\e9a8";
+  margin-left: -1em;
+  color: rgb(62, 67, 71);
+}
+.ezGolf-icon-flag-for-portugal .path37:before {
+  content: "\e9a9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-portugal .path38:before {
+  content: "\e9aa";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-portugal .path39:before {
+  content: "\e9ab";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-portugal .path40:before {
+  content: "\e9ac";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-portugal .path41:before {
+  content: "\e9ad";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-portugal .path42:before {
+  content: "\e9ae";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-portugal .path43:before {
+  content: "\e9af";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-portugal .path44:before {
+  content: "\e9b0";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-portugal .path45:before {
+  content: "\e9b1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-portugal .path46:before {
+  content: "\e9b2";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-portugal .path47:before {
+  content: "\e9b3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-portugal .path48:before {
+  content: "\e9b4";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-portugal .path49:before {
+  content: "\e9b5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-portugal .path50:before {
+  content: "\e9b6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-portugal .path51:before {
+  content: "\e9b7";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-portugal .path52:before {
+  content: "\e9b8";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-portugal .path53:before {
+  content: "\e9b9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-portugal .path54:before {
+  content: "\e9ba";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-portugal .path55:before {
+  content: "\e9bb";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-portugal .path56:before {
+  content: "\e9bc";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-portugal .path57:before {
+  content: "\e9bd";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-portugal .path58:before {
+  content: "\e9be";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-portugal .path59:before {
+  content: "\e9bf";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-portugal .path60:before {
+  content: "\e9c0";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-portugal .path61:before {
+  content: "\e9c1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-portugal .path62:before {
+  content: "\e9c2";
+  margin-left: -1em;
+  color: rgb(255, 230, 46);
+}
+.ezGolf-icon-flag-for-portugal .path63:before {
+  content: "\e9c3";
+  margin-left: -1em;
+  color: rgb(62, 67, 71);
+}
+.ezGolf-icon-flag-for-portugal .path64:before {
+  content: "\e9c4";
+  margin-left: -1em;
+  color: rgb(62, 67, 71);
+}
+.ezGolf-icon-flag-for-portugal .path65:before {
+  content: "\e9c5";
+  margin-left: -1em;
+  color: rgb(62, 67, 71);
+}
+.ezGolf-icon-flag-for-portugal .path66:before {
+  content: "\e9c6";
+  margin-left: -1em;
+  color: rgb(255, 230, 46);
+}
+.ezGolf-icon-flag-for-portugal .path67:before {
+  content: "\e9c7";
+  margin-left: -1em;
+  color: rgb(62, 67, 71);
+}
+.ezGolf-icon-flag-for-portugal .path68:before {
+  content: "\e9c8";
+  margin-left: -1em;
+  color: rgb(62, 67, 71);
+}
+.ezGolf-icon-flag-for-portugal .path69:before {
+  content: "\e9c9";
+  margin-left: -1em;
+  color: rgb(62, 67, 71);
+}
+.ezGolf-icon-flag-for-portugal .path70:before {
+  content: "\e9ca";
+  margin-left: -1em;
+  color: rgb(255, 230, 46);
+}
+.ezGolf-icon-flag-for-portugal .path71:before {
+  content: "\e9cb";
+  margin-left: -1em;
+  color: rgb(62, 67, 71);
+}
+.ezGolf-icon-flag-for-portugal .path72:before {
+  content: "\e9cc";
+  margin-left: -1em;
+  color: rgb(62, 67, 71);
+}
+.ezGolf-icon-flag-for-portugal .path73:before {
+  content: "\e9cd";
+  margin-left: -1em;
+  color: rgb(62, 67, 71);
+}
+.ezGolf-icon-flag-for-russia .path1:before {
+  content: "\e9ce";
+  color: rgb(237, 76, 92);
+}
+.ezGolf-icon-flag-for-russia .path2:before {
+  content: "\e9cf";
+  margin-left: -1em;
+  color: rgb(66, 139, 193);
+}
+.ezGolf-icon-flag-for-russia .path3:before {
+  content: "\e9d0";
+  margin-left: -1em;
+  color: rgb(249, 249, 249);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path1:before {
+  content: "\e9d1";
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path2:before {
+  content: "\e9d2";
+  margin-left: -1em;
+  color: rgb(237, 76, 92);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path3:before {
+  content: "\e9d3";
+  margin-left: -1em;
+  color: rgb(237, 76, 92);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path4:before {
+  content: "\e9d4";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path5:before {
+  content: "\e9d5";
+  margin-left: -1em;
+  color: rgb(237, 76, 92);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path6:before {
+  content: "\e9d6";
+  margin-left: -1em;
+  color: rgb(237, 76, 92);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path7:before {
+  content: "\e9d7";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path8:before {
+  content: "\e9d8";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path9:before {
+  content: "\e9d9";
+  margin-left: -1em;
+  color: rgb(237, 76, 92);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path10:before {
+  content: "\e9da";
+  margin-left: -1em;
+  color: rgb(237, 76, 92);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path11:before {
+  content: "\e9db";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path12:before {
+  content: "\e9dc";
+  margin-left: -1em;
+  color: rgb(237, 76, 92);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path13:before {
+  content: "\e9dd";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path14:before {
+  content: "\e9de";
+  margin-left: -1em;
+  color: rgb(66, 139, 193);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path15:before {
+  content: "\e9df";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path16:before {
+  content: "\e9e0";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path17:before {
+  content: "\e9e1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path18:before {
+  content: "\e9e2";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path19:before {
+  content: "\e9e3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path20:before {
+  content: "\e9e4";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path21:before {
+  content: "\e9e5";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path22:before {
+  content: "\e9e6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path23:before {
+  content: "\e9e7";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path24:before {
+  content: "\e9e8";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path25:before {
+  content: "\e9e9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path26:before {
+  content: "\e9ea";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path27:before {
+  content: "\e9eb";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-us-outlying-islands .path28:before {
+  content: "\e9ec";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ezGolf-icon-flag-for-vietnam .path1:before {
+  content: "\e9ed";
+  color: rgb(244, 47, 76);
+}
+.ezGolf-icon-flag-for-vietnam .path2:before {
+  content: "\e9ee";
+  margin-left: -1em;
+  color: rgb(255, 230, 46);
+}
+.ezGolf-icon-FO:before {
+  content: "\e9ef";
+  color: #5d5f65;
+}
+.ezGolf-icon-folder:before {
+  content: "\e9f0";
+  color: #5d5f65;
+}
+.ezGolf-icon-folder-minus:before {
+  content: "\e9f1";
+  color: #5d5f65;
+}
+.ezGolf-icon-folder-plus:before {
+  content: "\e9f2";
+  color: #5d5f65;
+}
+.ezGolf-icon-gift:before {
+  content: "\e9f3";
+  color: #5d5f65;
+}
+.ezGolf-icon-git-commit:before {
+  content: "\e9f4";
+  color: #5d5f65;
+}
+.ezGolf-icon-github:before {
+  content: "\e9f5";
+  color: #5d5f65;
+}
+.ezGolf-icon-github-1:before {
+  content: "\e9f6";
+}
+.ezGolf-icon-gitlab:before {
+  content: "\e9f7";
+  color: #5d5f65;
+}
+.ezGolf-icon-golf-bag:before {
+  content: "\e9f8";
+  color: #5d5f65;
+}
+.ezGolf-icon-golf-course:before {
+  content: "\e9f9";
+  color: #5d5f65;
+}
+.ezGolf-icon-golf-tee:before {
+  content: "\e9fa";
+  color: #5d5f65;
+}
+.ezGolf-icon-google:before {
+  content: "\e9fb";
+  color: #db3236;
+}
+.ezGolf-icon-grid:before {
+  content: "\e9fc";
+  color: #5d5f65;
+}
+.ezGolf-icon-hard-drive:before {
+  content: "\e9fd";
+  color: #5d5f65;
+}
+.ezGolf-icon-hash:before {
+  content: "\e9fe";
+  color: #5d5f65;
+}
+.ezGolf-icon-heart:before {
+  content: "\e9ff";
+  color: #5d5f65;
+}
+.ezGolf-icon-heart-fill:before {
+  content: "\ea00";
+  color: #5d5f65;
+}
+.ezGolf-icon-help-circle:before {
+  content: "\ea01";
+  color: #5d5f65;
+}
+.ezGolf-icon-home:before {
+  content: "\ea02";
+  color: #5d5f65;
+}
+.ezGolf-icon-image:before {
+  content: "\ea03";
+  color: #5d5f65;
+}
+.ezGolf-icon-inbox:before {
+  content: "\ea04";
+  color: #5d5f65;
+}
+.ezGolf-icon-info:before {
+  content: "\ea05";
+  color: #5d5f65;
+}
+.ezGolf-icon-instagram-1:before {
+  content: "\ea06";
+  color: #3f729b;
+}
+.ezGolf-icon-italic:before {
+  content: "\ea07";
+  color: #5d5f65;
+}
+.ezGolf-icon-layers:before {
+  content: "\ea08";
+  color: #5d5f65;
+}
+.ezGolf-icon-layout:before {
+  content: "\ea09";
+  color: #5d5f65;
+}
+.ezGolf-icon-link:before {
+  content: "\ea0a";
+  color: #5d5f65;
+}
+.ezGolf-icon-link-2:before {
+  content: "\ea0b";
+  color: #5d5f65;
+}
+.ezGolf-icon-linkedin-1:before {
+  content: "\ea0c";
+  color: #0e76a8;
+}
+.ezGolf-icon-list:before {
+  content: "\ea0d";
+  color: #5d5f65;
+}
+.ezGolf-icon-loader:before {
+  content: "\ea0e";
+  color: #5d5f65;
+}
+.ezGolf-icon-lock:before {
+  content: "\ea0f";
+  color: #5d5f65;
+}
+.ezGolf-icon-locker:before {
+  content: "\ea10";
+  color: #5d5f65;
+}
+.ezGolf-icon-log-in:before {
+  content: "\ea11";
+  color: #5d5f65;
+}
+.ezGolf-icon-log-out:before {
+  content: "\ea12";
+  color: #5d5f65;
+}
+.ezGolf-icon-mail:before {
+  content: "\ea13";
+  color: #5d5f65;
+}
+.ezGolf-icon-male:before {
+  content: "\ea14";
+  color: #5d5f65;
+}
+.ezGolf-icon-map:before {
+  content: "\ea15";
+  color: #5d5f65;
+}
+.ezGolf-icon-maximize:before {
+  content: "\ea16";
+  color: #5d5f65;
+}
+.ezGolf-icon-maximize-2:before {
+  content: "\ea17";
+  color: #5d5f65;
+}
+.ezGolf-icon-menu:before {
+  content: "\ea18";
+  color: #5d5f65;
+}
+.ezGolf-icon-message-circle:before {
+  content: "\ea19";
+  color: #5d5f65;
+}
+.ezGolf-icon-message-square:before {
+  content: "\ea1a";
+  color: #5d5f65;
+}
+.ezGolf-icon-mic:before {
+  content: "\ea1b";
+  color: #5d5f65;
+}
+.ezGolf-icon-mic-off:before {
+  content: "\ea1c";
+  color: #5d5f65;
+}
+.ezGolf-icon-military-tech:before {
+  content: "\ea1d";
+  color: #5d5f65;
+}
+.ezGolf-icon-minimize:before {
+  content: "\ea1e";
+  color: #5d5f65;
+}
+.ezGolf-icon-minimize-2:before {
+  content: "\ea1f";
+  color: #5d5f65;
+}
+.ezGolf-icon-minus:before {
+  content: "\ea20";
+  color: #5d5f65;
+}
+.ezGolf-icon-minus-circle:before {
+  content: "\ea21";
+  color: #5d5f65;
+}
+.ezGolf-icon-minus-square:before {
+  content: "\ea22";
+  color: #5d5f65;
+}
+.ezGolf-icon-monitor:before {
+  content: "\ea23";
+  color: #5d5f65;
+}
+.ezGolf-icon-moon:before {
+  content: "\ea24";
+  color: #5d5f65;
+}
+.ezGolf-icon-more-horizontal:before {
+  content: "\ea25";
+  color: #5d5f65;
+}
+.ezGolf-icon-more-vertical:before {
+  content: "\ea26";
+  color: #5d5f65;
+}
+.ezGolf-icon-move:before {
+  content: "\ea27";
+  color: #5d5f65;
+}
+.ezGolf-icon-navigation:before {
+  content: "\ea28";
+  color: #5d5f65;
+}
+.ezGolf-icon-navigation-2:before {
+  content: "\ea29";
+  color: #5d5f65;
+}
+.ezGolf-icon-note:before {
+  content: "\ea2a";
+  color: #5d5f65;
+}
+.ezGolf-icon-octagon:before {
+  content: "\ea2b";
+  color: #5d5f65;
+}
+.ezGolf-icon-other-gender:before {
+  content: "\ea2c";
+  color: #5d5f65;
+}
+.ezGolf-icon-package:before {
+  content: "\ea2d";
+  color: #5d5f65;
+}
+.ezGolf-icon-paperclip:before {
+  content: "\ea2f";
+  color: #5d5f65;
+}
+.ezGolf-icon-pause:before {
+  content: "\ea30";
+  color: #5d5f65;
+}
+.ezGolf-icon-pause-circle:before {
+  content: "\ea31";
+  color: #5d5f65;
+}
+.ezGolf-icon-phone:before {
+  content: "\ea32";
+  color: #5d5f65;
+}
+.ezGolf-icon-phone-call:before {
+  content: "\ea33";
+  color: #5d5f65;
+}
+.ezGolf-icon-phone-forwarded:before {
+  content: "\ea34";
+  color: #5d5f65;
+}
+.ezGolf-icon-phone-incoming:before {
+  content: "\ea35";
+  color: #5d5f65;
+}
+.ezGolf-icon-phone-missed:before {
+  content: "\ea36";
+  color: #5d5f65;
+}
+.ezGolf-icon-phone-outgoing:before {
+  content: "\ea37";
+  color: #5d5f65;
+}
+.ezGolf-icon-place:before {
+  content: "\ea38";
+  color: #5d5f65;
+}
+.ezGolf-icon-play:before {
+  content: "\ea39";
+  color: #5d5f65;
+}
+.ezGolf-icon-plus:before {
+  content: "\ea3a";
+  color: #5d5f65;
+}
+.ezGolf-icon-plus-circle:before {
+  content: "\ea3b";
+  color: #5d5f65;
+}
+.ezGolf-icon-plus-square:before {
+  content: "\ea3c";
+  color: #5d5f65;
+}
+.ezGolf-icon-pocket:before {
+  content: "\ea3d";
+  color: #5d5f65;
+}
+.ezGolf-icon-power:before {
+  content: "\ea3e";
+  color: #5d5f65;
+}
+.ezGolf-icon-printer:before {
+  content: "\ea3f";
+  color: #5d5f65;
+}
+.ezGolf-icon-radio:before {
+  content: "\ea40";
+  color: #5d5f65;
+}
+.ezGolf-icon-refresh-ccw:before {
+  content: "\ea41";
+  color: #5d5f65;
+}
+.ezGolf-icon-refresh-cw:before {
+  content: "\ea42";
+  color: #5d5f65;
+}
+.ezGolf-icon-repeat:before {
+  content: "\ea43";
+  color: #5d5f65;
+}
+.ezGolf-icon-Restaurant:before {
+  content: "\ea44";
+  color: #5d5f65;
+}
+.ezGolf-icon-rewind:before {
+  content: "\ea45";
+  color: #5d5f65;
+}
+.ezGolf-icon-rotate-ccw:before {
+  content: "\ea46";
+  color: #5d5f65;
+}
+.ezGolf-icon-rotate-cw:before {
+  content: "\ea47";
+  color: #5d5f65;
+}
+.ezGolf-icon-rss:before {
+  content: "\ea48";
+  color: #5d5f65;
+}
+.ezGolf-icon-save:before {
+  content: "\ea49";
+  color: #5d5f65;
+}
+.ezGolf-icon-scissors:before {
+  content: "\ea4a";
+  color: #5d5f65;
+}
+.ezGolf-icon-search:before {
+  content: "\ea4b";
+  color: #5d5f65;
+}
+.ezGolf-icon-server:before {
+  content: "\ea4c";
+  color: #5d5f65;
+}
+.ezGolf-icon-settings:before {
+  content: "\ea4d";
+  color: #5d5f65;
+}
+.ezGolf-icon-shield:before {
+  content: "\ea4e";
+  color: #5d5f65;
+}
+.ezGolf-icon-shield-off:before {
+  content: "\ea4f";
+  color: #5d5f65;
+}
+.ezGolf-icon-shopping-bag:before {
+  content: "\ea52";
+  color: #5d5f65;
+}
+.ezGolf-icon-shopping-cart:before {
+  content: "\ea53";
+  color: #5d5f65;
+}
+.ezGolf-icon-shuffle:before {
+  content: "\ea54";
+  color: #5d5f65;
+}
+.ezGolf-icon-sidebar:before {
+  content: "\ea55";
+  color: #5d5f65;
+}
+.ezGolf-icon-skip-back:before {
+  content: "\ea56";
+  color: #5d5f65;
+}
+.ezGolf-icon-skip-forward:before {
+  content: "\ea57";
+  color: #5d5f65;
+}
+.ezGolf-icon-slash:before {
+  content: "\ea58";
+  color: #5d5f65;
+}
+.ezGolf-icon-sliders:before {
+  content: "\ea59";
+  color: #5d5f65;
+}
+.ezGolf-icon-smartphone:before {
+  content: "\ea5a";
+  color: #5d5f65;
+}
+.ezGolf-icon-square:before {
+  content: "\ea5b";
+  color: #5d5f65;
+}
+.ezGolf-icon-star:before {
+  content: "\ea5c";
+  color: #5d5f65;
+}
+.ezGolf-icon-star-fill:before {
+  content: "\ea5d";
+  color: #5d5f65;
+}
+.ezGolf-icon-store:before {
+  content: "\ea5e";
+  color: #5d5f65;
+}
+.ezGolf-icon-straighten:before {
+  content: "\ea5f";
+  color: #5d5f65;
+}
+.ezGolf-icon-sunrise:before {
+  content: "\ea60";
+  color: #5d5f65;
+}
+.ezGolf-icon-sunset:before {
+  content: "\ea61";
+  color: #5d5f65;
+}
+.ezGolf-icon-system-update:before {
+  content: "\ea62";
+  color: #5d5f65;
+}
+.ezGolf-icon-table-bar:before {
+  content: "\ea63";
+  color: #5d5f65;
+}
+.ezGolf-icon-tablet:before {
+  content: "\ea64";
+  color: #5d5f65;
+}
+.ezGolf-icon-tag:before {
+  content: "\ea65";
+  color: #5d5f65;
+}
+.ezGolf-icon-terminal:before {
+  content: "\ea66";
+  color: #5d5f65;
+}
+.ezGolf-icon-text-snippet:before {
+  content: "\ea67";
+  color: #5d5f65;
+}
+.ezGolf-icon-thermometer:before {
+  content: "\ea68";
+  color: #5d5f65;
+}
+.ezGolf-icon-thumbs-down:before {
+  content: "\ea69";
+  color: #5d5f65;
+}
+.ezGolf-icon-thumbs-up:before {
+  content: "\ea6a";
+  color: #5d5f65;
+}
+.ezGolf-icon-traffic:before {
+  content: "\ea6b";
+  color: #5d5f65;
+}
+.ezGolf-icon-trending-down:before {
+  content: "\ea6c";
+  color: #5d5f65;
+}
+.ezGolf-icon-trending-up:before {
+  content: "\ea6d";
+  color: #5d5f65;
+}
+.ezGolf-icon-triangle:before {
+  content: "\ea6e";
+  color: #5d5f65;
+}
+.ezGolf-icon-truck:before {
+  content: "\ea6f";
+  color: #5d5f65;
+}
+.ezGolf-icon-tv:before {
+  content: "\ea70";
+  color: #5d5f65;
+}
+.ezGolf-icon-twitter:before {
+  content: "\ea71";
+  color: #5d5f65;
+}
+.ezGolf-icon-twitter-1:before {
+  content: "\ea72";
+  color: #00acee;
+}
+.ezGolf-icon-type:before {
+  content: "\ea73";
+  color: #5d5f65;
+}
+.ezGolf-icon-umbrella:before {
+  content: "\ea74";
+  color: #5d5f65;
+}
+.ezGolf-icon-underline:before {
+  content: "\ea75";
+  color: #5d5f65;
+}
+.ezGolf-icon-unlock:before {
+  content: "\ea76";
+  color: #5d5f65;
+}
+.ezGolf-icon-upload:before {
+  content: "\ea77";
+  color: #5d5f65;
+}
+.ezGolf-icon-upload-cloud:before {
+  content: "\ea78";
+  color: #5d5f65;
+}
+.ezGolf-icon-video:before {
+  content: "\ea79";
+  color: #5d5f65;
+}
+.ezGolf-icon-video-off:before {
+  content: "\ea7a";
+  color: #5d5f65;
+}
+.ezGolf-icon-voicemail:before {
+  content: "\ea7b";
+  color: #5d5f65;
+}
+.ezGolf-icon-volume:before {
+  content: "\ea7c";
+  color: #5d5f65;
+}
+.ezGolf-icon-volume-1:before {
+  content: "\ea7d";
+  color: #5d5f65;
+}
+.ezGolf-icon-volume-2:before {
+  content: "\ea7e";
+  color: #5d5f65;
+}
+.ezGolf-icon-volume-x:before {
+  content: "\ea7f";
+  color: #5d5f65;
+}
+.ezGolf-icon-watch:before {
+  content: "\ea80";
+  color: #5d5f65;
+}
+.ezGolf-icon-water-drop:before {
+  content: "\ea81";
+  color: #5d5f65;
+}
+.ezGolf-icon-weather-cloudy:before {
+  content: "\ea82";
+  color: #5d5f65;
+}
+.ezGolf-icon-weather-drizzle:before {
+  content: "\ea83";
+  color: #5d5f65;
+}
+.ezGolf-icon-weather-fog:before {
+  content: "\ea84";
+  color: #5d5f65;
+}
+.ezGolf-icon-weather-hail-day:before {
+  content: "\ea85";
+  color: #5d5f65;
+}
+.ezGolf-icon-weather-hail-night:before {
+  content: "\ea86";
+  color: #5d5f65;
+}
+.ezGolf-icon-weather-haze:before {
+  content: "\ea87";
+  color: #5d5f65;
+}
+.ezGolf-icon-weather-moon:before {
+  content: "\ea88";
+  color: #5d5f65;
+}
+.ezGolf-icon-weather-partly-cloudy-day:before {
+  content: "\ea89";
+  color: #5d5f65;
+}
+.ezGolf-icon-weather-partly-cloudy-night:before {
+  content: "\ea8a";
+  color: #5d5f65;
+}
+.ezGolf-icon-weather-rain:before {
+  content: "\ea8b";
+  color: #5d5f65;
+}
+.ezGolf-icon-weather-rain-showers-day:before {
+  content: "\ea8c";
+  color: #5d5f65;
+}
+.ezGolf-icon-weather-rain-showers-night:before {
+  content: "\ea8d";
+  color: #5d5f65;
+}
+.ezGolf-icon-weather-rain-snow:before {
+  content: "\ea8e";
+  color: #5d5f65;
+}
+.ezGolf-icon-weather-snow:before {
+  content: "\ea8f";
+  color: #5d5f65;
+}
+.ezGolf-icon-weather-snow-shower-day:before {
+  content: "\ea90";
+  color: #5d5f65;
+}
+.ezGolf-icon-weather-snow-shower-night:before {
+  content: "\ea91";
+  color: #5d5f65;
+}
+.ezGolf-icon-weather-sunny:before {
+  content: "\ea92";
+  color: #5d5f65;
+}
+.ezGolf-icon-weather-thunderstorm:before {
+  content: "\ea93";
+  color: #5d5f65;
+}
+.ezGolf-icon-whistle-outline:before {
+  content: "\ea94";
+  color: #5d5f65;
+}
+.ezGolf-icon-wifi:before {
+  content: "\ea95";
+  color: #5d5f65;
+}
+.ezGolf-icon-wifi-off:before {
+  content: "\ea96";
+  color: #5d5f65;
+}
+.ezGolf-icon-wind:before {
+  content: "\ea97";
+  color: #5d5f65;
+}
+.ezGolf-icon-wine-bar:before {
+  content: "\ea98";
+  color: #5d5f65;
+}
+.ezGolf-icon-x:before {
+  content: "\ea99";
+  color: #5d5f65;
+}
+.ezGolf-icon-x-circle:before {
+  content: "\ea9a";
+  color: #5d5f65;
+}
+.ezGolf-icon-x-square:before {
+  content: "\ea9b";
+  color: #5d5f65;
+}
+.ezGolf-icon-zap:before {
+  content: "\ea9c";
+  color: #5d5f65;
+}
+.ezGolf-icon-zap-off:before {
+  content: "\ea9d";
+  color: #5d5f65;
+}
+.ezGolf-icon-zoom-in:before {
+  content: "\ea9e";
+  color: #5d5f65;
+}
+.ezGolf-icon-zoom-out:before {
+  content: "\ea9f";
+  color: #5d5f65;
+}
+.ezGolf-icon-chrome:before {
+  content: "\eaa0";
+  color: #5d5f65;
+}
+.ezGolf-icon-clipboard:before {
+  content: "\eaa1";
+  color: #5d5f65;
+}
+.ezGolf-icon-codepen:before {
+  content: "\eaa2";
+  color: #5d5f65;
+}
+.ezGolf-icon-command:before {
+  content: "\eaa3";
+  color: #5d5f65;
+}
+.ezGolf-icon-compass:before {
+  content: "\eaa4";
+  color: #5d5f65;
+}
+.ezGolf-icon-disc:before {
+  content: "\eaa5";
+  color: #5d5f65;
+}
+.ezGolf-icon-dollar-sign:before {
+  content: "\eaa6";
+  color: #5d5f65;
+}
+.ezGolf-icon-eye-off:before {
+  content: "\eaa7";
+  color: #5d5f65;
+}
+.ezGolf-icon-git-branch:before {
+  content: "\eaa8";
+  color: #5d5f65;
+}
+.ezGolf-icon-git-merge:before {
+  content: "\eaa9";
+  color: #5d5f65;
+}
+.ezGolf-icon-git-pull-request:before {
+  content: "\eaaa";
+  color: #5d5f65;
+}
+.ezGolf-icon-globe:before {
+  content: "\eaab";
+  color: #5d5f65;
+}
+.ezGolf-icon-headphones:before {
+  content: "\eaac";
+  color: #5d5f65;
+}
+.ezGolf-icon-instagram:before {
+  content: "\eaad";
+  color: #5d5f65;
+}
+.ezGolf-icon-life-buoy:before {
+  content: "\eaae";
+  color: #5d5f65;
+}
+.ezGolf-icon-linkedin:before {
+  content: "\eaaf";
+  color: #5d5f65;
+}
+.ezGolf-icon-map-pin:before {
+  content: "\eab0";
+  color: #5d5f65;
+}
+.ezGolf-icon-music:before {
+  content: "\eab1";
+  color: #5d5f65;
+}
+.ezGolf-icon-percent:before {
+  content: "\eab2";
+  color: #5d5f65;
+}
+.ezGolf-icon-phone-off:before {
+  content: "\eab3";
+  color: #5d5f65;
+}
+.ezGolf-icon-pie-chart:before {
+  content: "\eab4";
+  color: #5d5f65;
+}
+.ezGolf-icon-play-circle:before {
+  content: "\eab5";
+  color: #5d5f65;
+}
+.ezGolf-icon-send:before {
+  content: "\eab6";
+  color: #5d5f65;
+}
+.ezGolf-icon-share:before {
+  content: "\eab7";
+  color: #5d5f65;
+}
+.ezGolf-icon-share-2:before {
+  content: "\eab8";
+  color: #5d5f65;
+}
+.ezGolf-icon-slack:before {
+  content: "\eab9";
+  color: #5d5f65;
+}
+.ezGolf-icon-speaker:before {
+  content: "\eaba";
+  color: #5d5f65;
+}
+.ezGolf-icon-stop-circle:before {
+  content: "\eabb";
+  color: #5d5f65;
+}
+.ezGolf-icon-sun:before {
+  content: "\eabc";
+  color: #5d5f65;
+}
+.ezGolf-icon-target:before {
+  content: "\eabd";
+  color: #5d5f65;
+}
+.ezGolf-icon-toggle-left:before {
+  content: "\eabe";
+  color: #5d5f65;
+}
+.ezGolf-icon-toggle-right:before {
+  content: "\eabf";
+  color: #5d5f65;
+}
+.ezGolf-icon-trash:before {
+  content: "\eac0";
+  color: #5d5f65;
+}
+.ezGolf-icon-trash-2:before {
+  content: "\eac1";
+  color: #5d5f65;
+}
+.ezGolf-icon-user:before {
+  content: "\eac2";
+  color: #5d5f65;
+}
+.ezGolf-icon-user-check:before {
+  content: "\eac3";
+  color: #5d5f65;
+}
+.ezGolf-icon-user-minus:before {
+  content: "\eac4";
+  color: #5d5f65;
+}
+.ezGolf-icon-user-plus:before {
+  content: "\eac5";
+  color: #5d5f65;
+}
+.ezGolf-icon-users:before {
+  content: "\eac6";
+  color: #5d5f65;
+}
+.ezGolf-icon-user-x:before {
+  content: "\eac7";
+  color: #5d5f65;
+}
+.ezGolf-icon-youtube:before {
+  content: "\eac8";
+  color: #5d5f65;
+}

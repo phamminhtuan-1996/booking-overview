@@ -1,0 +1,11 @@
+.table-ezgolf {
+    thead {
+        background-color: #F2F2F2;
+    }
+    thead, tbody, tfoot, tr, td, th {
+        border-style: unset;
+    }
+    .table {
+        min-width: 600px;
+    }
+}

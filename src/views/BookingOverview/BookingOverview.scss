@@ -1,0 +1,6 @@
+.booking-overview {
+    min-height: calc(100vh - 75px);
+    :deep(.dp__pointer) {
+        text-align: center;
+    }
+}

@@ -1,0 +1,9 @@
+.login-authen {
+    height: calc(100vh - 75px);
+    &__logo {
+        width: 107px;
+    }
+    &__signup {
+        font-size: 18px;
+    }
+}

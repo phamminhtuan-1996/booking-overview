@@ -1,0 +1,26 @@
+.pagination {
+    :deep(.page-item) {
+        background-color: #f3f3f3;
+        &.active {
+            background-color: #f3f3f3;
+            .page-link {
+                border-radius: 100%;
+                background-color: #114A9F;
+            }
+        }
+        .page-link {
+            background-color: #f3f3f3;
+            border: none;
+        }
+        &:first-child {
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            overflow: hidden;
+        }
+        &:last-child {
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            overflow: hidden;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.booking-details {
+    .row-item {
+        padding: 0;
+        &__label {
+            font-size: 18px;
+        }
+    }
+    &__info--row {
+        .row-item:first-child {
+            text-align: end;
+        }
+    }
+}

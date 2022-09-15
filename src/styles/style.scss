@@ -1,0 +1,76 @@
+@import './bootstrap/scss/bootstrap.scss';
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  // box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #9F9A9A; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #9F9A9A; 
+}
+* {
+    font-family: 'Roboto', sans-serif;
+  }
+  html, body {
+    width: 100%;
+    height: 100%;
+  }
+  .btn {
+    height: 42px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .ez-date-range {
+    .calendars-container {
+      .drp-calendar.left {
+          display: none!important;
+      }
+    }
+    .drp-buttons {
+      display: flex!important;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      .drp-selected {
+        display: none;
+      }
+    }
+  }
+.modal-header {
+  height: 48px;
+  background-color: #EEEEEF;
+  padding: 14px 18px;
+  .modal-title {
+    color: black;
+    font-size: 18px;
+  }
+}
+.title-primary {
+  font-size: 28px;
+  font-weight: 500;
+  color: $primary;
+}
+
+.modal-dialog {
+  margin: calc(50vh - 182px) 0.5rem 0 0.5rem;
+}
+.modal-title {
+  text-transform: uppercase;
+}
+i.text-white {
+  &::before {
+    color: $white;
+  }
+}
